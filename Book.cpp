@@ -18,14 +18,7 @@ Book::Book(const std::string& ne, const std::string& at, const std::string& date
     ibsn=is;
 }
 
-/*Book::Book(const Book& t)
- {
-    name=t.name;
-    author=t.author;
-    pubDate=t.pubDate;
-    ibsn= t.ibsn;
- }
-*/
+
 Book::~Book()
 {
 }
